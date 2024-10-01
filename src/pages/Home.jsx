@@ -5,7 +5,9 @@ const Home = () => {
 
     return(
         <>
+        <div className="prova">
         <p>home</p>
+        </div>
         </>
     )
 }

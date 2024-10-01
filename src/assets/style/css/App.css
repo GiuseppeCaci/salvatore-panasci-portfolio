@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #FDFEFF;
+  box-shadow: 0 2px 4px rgba(39, 39, 39, 0.1);
+}
+.navbar button {
+  margin: 5px;
+  width: 40px;
+  height: 37px;
+  border: none;
+  box-shadow: 0 2px 2px rgba(47, 46, 46, 0.178);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFF7F5;
+}
+.navbar button:focus {
+  outline: none;
+  box-shadow: 0 2px 2px rgba(47, 46, 46, 0.178);
+  border: none;
+}
+.navbar button span {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath stroke='%231E4F80' stroke-width='1.1' d='M1 3h14M1 8h14M1 13h14'/%3E%3C/svg%3E");
+}
+.navbar .navbar-brand {
+  color: #1E4F80;
+}
+.navbar .navbar-brand:hover {
+  color: #4C749E;
+}
+.navbar .nav-link {
+  color: #1E4F80;
+}
+.navbar .nav-link:hover {
+  color: #FF5733;
+}
+.navbar .nav-link.active {
+  color: #E91E63;
+}
+.navbar .nav-link.disabled {
+  color: #C0C0C0;
+}
+
+footer {
+  position: relative;
+  background-color: #0F3B55;
+  bottom: 0;
+  width: 100%;
+}
+footer .list-inline-item {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.prova {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/*# sourceMappingURL=App.css.map */

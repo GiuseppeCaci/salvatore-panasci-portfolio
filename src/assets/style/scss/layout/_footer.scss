@@ -1,0 +1,13 @@
+@import '../themes/light';
+@import '../abstracts/mixins';
+
+footer {
+    position: relative;
+    background-color: $footer-background-light;
+    bottom: 0;
+    width: 100%;
+    .list-inline-item {
+      margin: 0 10px; // Distanza tra le icone
+      font-size: 1.5rem; // Dimensione delle icone
+    }
+  }
