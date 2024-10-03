@@ -1,6 +1,10 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Blog = () => {
+    useEffect(() => {
+        document.title = "Blog | Salvatore Panasci";
+      }, []);
   return (
     <>
       <div className="h-base d-flex justify-content-start align-items-center flex-column">

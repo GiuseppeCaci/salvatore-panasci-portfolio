@@ -1,6 +1,10 @@
 import React from "react";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Contatti | Salvatore Panasci";
+  }, []);
   return (
     <>
       <div className="h-base">

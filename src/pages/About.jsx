@@ -1,6 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 
 const About = () => {
+
+  useEffect(() => {
+    document.title = "Chi sono | Salvatore Panasci";
+  }, []);
+
   return (
     <>
       <section className="py-5 section-about-hero">

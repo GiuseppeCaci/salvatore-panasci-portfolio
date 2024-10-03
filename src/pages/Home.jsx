@@ -1,8 +1,10 @@
 import React from "react";
-import useTransitionPage from "../useHooks/UseTransitionPage";
-const Home = () => {
+import { useEffect } from "react";
 
-  const isVisible = useTransitionPage();
+const Home = () => {
+  useEffect(() => {
+    document.title = "Home | Salvatore Panasci";
+  }, []);
 
   return (
     <>
