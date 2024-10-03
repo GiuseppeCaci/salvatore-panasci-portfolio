@@ -23,6 +23,9 @@
   }
   @include respond-to(tablet) {
     min-height: 400px;
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
     div {
       max-width: 500px;
       padding-bottom: 80px;
@@ -35,6 +38,8 @@
   @include respond-to(desktop) {
     height: 500px;
     margin-top: 40px;
+    width: 850px;
+    border-radius: 10px;
     div {
       padding-bottom: 80px;
       max-width: 600px;
@@ -84,7 +89,7 @@
         rgba(96, 95, 95, 0.155),
         rgba(22, 22, 22, 0.349)
       ),
-      url("/assets/img/bg-blog-tablet3.png");
+      url("/assets/img/bg-blog-tablet.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -95,9 +100,9 @@
         rgba(96, 95, 95, 0.155),
         rgba(22, 22, 22, 0.349)
       ),
-      url("/assets/img/bg-blog-tablet3.png");
+      url("/assets/img/bg-blog-tablet.png");
     background-position: center;
-    background-size: 65% auto;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }

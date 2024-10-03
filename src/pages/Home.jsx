@@ -1,6 +1,9 @@
 import React from "react";
-
+import useTransitionPage from "../useHooks/UseTransitionPage";
 const Home = () => {
+
+  const isVisible = useTransitionPage();
+
   return (
     <>
       <section className="pt-2 pb-2 section-home">
@@ -9,7 +12,7 @@ const Home = () => {
             Promuovere il benessere attraverso l'innovazione digitale
             e l'approccio neuropsicologico
           </h2>
-          <p className="lead">
+          <p className="lead fw-normal">
             Benvenuti nel futuro della neuropsicologia. Con un forte impegno
             verso la digitalizzazione dell'istruzione, studio per offrire soluzioni per
             migliorare l'apprendimento e il benessere mentale. Integrando
@@ -23,7 +26,7 @@ const Home = () => {
       <section className="py-5 my-4 section-hero1">
         <div className="container text-start my-4 px-3">
           <h1 className="display-5">Scopri chi sono</h1>
-          <p className="lead">
+          <p className="lead fw-normal">
           Scopri il mio percorso e le competenze che metto al servizio del tuo sviluppo personale.
           </p>
           <div className="d-flex justify-content-center">
@@ -36,7 +39,7 @@ const Home = () => {
       <section className="py-5 section-hero2">
         <div className="container text-start my-4 px-3">
           <h1 className="display-5">Blog</h1>
-          <p className="lead">
+          <p className="lead fw-normal">
           Esplora articoli e risorse per rimanere aggiornato su come la neuropsicologia può migliorare la vita quotidiana.
           </p>
           <div className="d-flex justify-content-center">

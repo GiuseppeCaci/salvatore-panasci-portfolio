@@ -9,7 +9,7 @@ const NavBar = () => {
     <>
       <nav className="navbar p-2 sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/about">
            <img src="/assets/img/logo1.png" className="img-logo"></img>
           </a>
           <button
@@ -24,25 +24,29 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav p-3">
               <li className="nav-item">
               <a className={`nav-link ${location.pathname === "/" ? 'active' : ''}`} href="/">
                   Home
+                  <span className="span-menu"></span>
                 </a>
               </li>
               <li className="nav-item">
               <a className={`nav-link ${location.pathname === "/about" ? 'active' : ''}`} href="/about">
                   Chi sono
+                  <span className="span-menu"></span>
                 </a>
               </li>
               <li className="nav-item">
               <a className={`nav-link ${location.pathname === "/blog" ? 'active' : ''}`} href="/blog">
                   Blog
+                  <span className="span-menu"></span>
                 </a>
               </li>
               <li className="nav-item">
                 <a className={`nav-link ${location.pathname === "/contact" ? 'active' : ''}`} href="/contact">
                   Contatti
+                  <span className="span-menu"></span>
                 </a>
               </li>
             </ul>

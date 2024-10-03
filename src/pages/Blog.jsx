@@ -3,11 +3,11 @@ import React from "react";
 const Blog = () => {
   return (
     <>
-      <div className="h-base">
+      <div className="h-base d-flex justify-content-start align-items-center flex-column">
         <section className="py-5 container-blog-hero container-blog-logo">
           <div className="container my-1 px-4">
             <h4 className="display-4">Blog Neuroscienze</h4>
-            <p className="lead">
+            <p className="lead fw-normal">
               Riflessioni e scoperte sul mondo della Neuropsicologia
             </p>
           </div>

@@ -18,7 +18,6 @@ const ThemeProvider = ({ children }) => {
   //infine, chiudo il ciclo facendo aggiornare automaticamente il tema al montaggio col primo stato creato
   useEffect(() => {
     localStorage.setItem("theme", theme);
-    console.log(theme)
   }, [theme]);
 
 

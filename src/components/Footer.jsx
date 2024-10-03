@@ -10,22 +10,22 @@ const Footer = () => {
             <div className="w-100 col-lg-3 col-md-6 p-0 text-center">
             <ul className="list-inline m-0 d-flex justify-content-evenly justify-content-lg-evenly">
                 <li className="list-inline-item">
-                  <a href="#!" className="text-light" aria-label="Facebook">
-                    <i className="bi bi-facebook"></i>
+                  <a href={import.meta.env.VITE_CV_URL} download="curriculum-panasci.pdf" className="text-light">
+                  <i className="bi bi-file-earmark-person-fill fs-5"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                <a href="#!" className="text-light">
+                <a href={`mailto:${import.meta.env.VITE_EMAIL}`} className="text-light">
                 <i className="bi bi-envelope-fill"></i>
                 </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#!" className="text-light" aria-label="Instagram">
+                  <a href={import.meta.env.VITE_INSTAGRAM_URL} target="_blank" className="text-light" aria-label="Instagram">
                     <i className="bi bi-instagram"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#!" className="text-light" aria-label="LinkedIn">
+                  <a href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" className="text-light" aria-label="LinkedIn">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </li>

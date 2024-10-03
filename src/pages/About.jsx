@@ -7,7 +7,7 @@ const About = () => {
         <div className="container text-start mt-2 mb-1 px-4">
           <h4 className="display-4">Salvatore Panasci</h4>
           <p>Studente di Neuropsicologia</p>
-          <p className="lead">
+          <p className="lead fw-normal">
             Sono un appassionato di neuroscienze e innovazione educativa,
             impegnato a esplorare come la tecnologia possa migliorare
             l'apprendimento e il benessere mentale. La mia formazione in
@@ -48,7 +48,7 @@ const About = () => {
       <section className="pt-5 pb-4 section-about-generic">
   <div className="container text-start mb-1 px-4">
     <h4 className="display-4">Competenze</h4>
-    <p className="lead">
+    <p className="lead fw-normal">
       Ho sviluppato competenze trasversali nel campo della neuropsicologia e dell'educazione, tra cui:
     </p>
     <ul className="list-group list-group-flush">
@@ -65,7 +65,7 @@ const About = () => {
 <section className="pb-5 section-about-generic mt-2">
   <div className="container text-start mb-1 px-4">
     <h4 className="display-4">Aree di interesse</h4>
-    <p className="lead">
+    <p className="lead fw-normal">
       Le mie aree di interesse spaziano dalla neuropsicologia all'educazione digitale. In particolare, mi concentro su:
     </p>
     <ul className="list-group list-group-flush">
@@ -86,7 +86,7 @@ const About = () => {
 <section className="py-5 container-blue">
   <div className="container text-start my-1 px-4">
     <h4 className="display-4 pb-3">Obiettivi personali</h4>
-    <p className="lead">
+    <p className="lead fw-normal">
       I miei obiettivi personali si concentrano sul miglioramento continuo delle mie competenze in neuropsicologia e sull'innovazione educativa. Aspiro a:
     </p>
     <ul>

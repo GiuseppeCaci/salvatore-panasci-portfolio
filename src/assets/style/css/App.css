@@ -57,6 +57,20 @@
   }
 }
 
+.nav-link {
+  position: relative;
+  padding-bottom: 7px;
+}
+.nav-link .span-menu {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(76, 116, 158, 0.3843137255);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 footer {
   position: relative;
   background-color: #0F3B55;
@@ -106,7 +120,7 @@ footer .list-inline-item {
 
 .section-hero1 {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1502006053053-bd3dd81c9e81?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("assets/img/bg-home-about.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -172,7 +186,7 @@ footer .list-inline-item {
 
 .section-hero2 {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1709651669999-57741c9bf085?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("/assets/img/bg-home-blog.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -371,6 +385,9 @@ footer .list-inline-item {
 @media (min-width: 600px) and (max-width: 1024px) {
   .container-blog-hero {
     min-height: 400px;
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
   }
   .container-blog-hero div {
     max-width: 500px;
@@ -385,6 +402,8 @@ footer .list-inline-item {
   .container-blog-hero {
     height: 500px;
     margin-top: 40px;
+    width: 850px;
+    border-radius: 10px;
   }
   .container-blog-hero div {
     padding-bottom: 80px;
@@ -426,7 +445,7 @@ footer .list-inline-item {
 }
 @media (min-width: 600px) and (max-width: 1024px) {
   .container-blog-logo {
-    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet3.png");
+    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -434,9 +453,9 @@ footer .list-inline-item {
 }
 @media (min-width: 1025px) {
   .container-blog-logo {
-    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet3.png");
+    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet.png");
     background-position: center;
-    background-size: 65% auto;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
