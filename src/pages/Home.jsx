@@ -6,7 +6,7 @@ const Home = () => {
       <section className="pt-2 pb-2 section-home">
         <div className="container text-start my-5 px-3">
           <h2 className="display-5">
-            Promuovere il benessere cognitivo attraverso l'innovazione digitale
+            Promuovere il benessere attraverso l'innovazione digitale
             e l'approccio neuropsicologico
           </h2>
           <p className="lead">

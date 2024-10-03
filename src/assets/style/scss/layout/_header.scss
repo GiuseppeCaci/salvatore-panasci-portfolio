@@ -44,3 +44,15 @@
       }
     }
   }
+
+  .img-logo{
+    @include respond-to (mobile){
+      width: 43px;
+  }
+    @include respond-to (tablet){
+      width: 60px;
+  }
+  @include respond-to (desktop){
+    width: 50px;
+  }
+  }

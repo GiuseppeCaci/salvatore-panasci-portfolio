@@ -41,6 +41,22 @@
   color: #C0C0C0;
 }
 
+@media (max-width: 599px) {
+  .img-logo {
+    width: 43px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .img-logo {
+    width: 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .img-logo {
+    width: 50px;
+  }
+}
+
 footer {
   position: relative;
   background-color: #0F3B55;
@@ -333,12 +349,10 @@ footer .list-inline-item {
   justify-content: center;
   background-color: #5078A8;
 }
-.container-blog-hero div h1,
-.container-blog-hero div h2,
-.container-blog-hero div h3,
-.container-blog-hero div h4,
-.container-blog-hero div h5,
-.container-blog-hero div h6 {
+.container-blog-hero div {
+  text-align: center;
+}
+.container-blog-hero div h4 {
   color: #FFFFFF;
   font-weight: 600;
 }
@@ -360,14 +374,24 @@ footer .list-inline-item {
   }
   .container-blog-hero div {
     max-width: 500px;
+    padding-bottom: 80px;
+    padding-bottom: 70px;
+  }
+  .container-blog-hero div h4 {
+    margin: 0px;
   }
 }
 @media (min-width: 1025px) {
   .container-blog-hero {
     height: 500px;
+    margin-top: 40px;
   }
   .container-blog-hero div {
+    padding-bottom: 80px;
     max-width: 600px;
+  }
+  .container-blog-hero div h4 {
+    margin: 0px;
   }
 }
 
@@ -390,6 +414,31 @@ footer .list-inline-item {
 .container-card-post p:nth-child(3) {
   padding-bottom: 5px;
   font-weight: 500;
+}
+
+.container-blog-logo {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-mobile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+  .container-blog-logo {
+    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1025px) {
+  .container-blog-logo {
+    background: linear-gradient(180deg, rgba(96, 95, 95, 0.155), rgba(22, 22, 22, 0.349)), url("/assets/img/bg-blog-tablet3.png");
+    background-position: center;
+    background-size: 65% auto;
+    background-repeat: no-repeat;
+  }
 }
 
 .section-contact {

@@ -10,7 +10,7 @@ const NavBar = () => {
       <nav className="navbar p-2 sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Logo
+           <img src="/assets/img/logo1.png" className="img-logo"></img>
           </a>
           <button
             className="navbar-toggler"
