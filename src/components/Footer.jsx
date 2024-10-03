@@ -11,7 +11,7 @@ const Footer = () => {
             <ul className="list-inline m-0 d-flex justify-content-evenly justify-content-lg-evenly">
                 <li className="list-inline-item">
                   <a href="#!" className="text-light" aria-label="Facebook">
-                    <i className="bi bi-facebook bi-2xl"></i>
+                    <i className="bi bi-facebook"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">

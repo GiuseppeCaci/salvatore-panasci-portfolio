@@ -1,0 +1,109 @@
+@import "../themes/_light.scss";
+@import "../abstracts/_mixins.scss";
+
+.section-about-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $base-titoli-light;
+      font-weight: 600;
+    }
+    p:nth-child(2) {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $base-testi-light;
+    }
+  }
+  @include respond-to(tablet) {
+    min-height: 400px;
+    div {
+      width: 500px;
+    }
+  }
+  @include respond-to(desktop) {
+    height: 600px;
+    div {
+      width: 600px;
+    }
+  }
+}
+
+.section-about-generic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $base-titoli-light;
+      font-weight: 600;
+      padding-bottom: 20px;
+    }
+    p {
+      color: $base-testi-light;
+    }
+
+    ul li{
+        color: $base-testi-light;
+      }
+
+    div {
+      a {
+        background-color: $blue-button-light;
+        color: white;
+        border-radius: 25px;
+        padding: 12px 17px;
+        box-shadow: 0 2px 2px rgba(47, 46, 46, 0.178);
+        transition: transform 0.3s ease;
+        &:hover {
+          background-color: $blue-button-hover-light;
+          color: $yellow-titoli-testi-light;
+          color: white;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  @include respond-to(tablet) {
+    min-height: 400px;
+    div {
+      max-width: 500px;
+    }
+  }
+  @include respond-to(desktop) {
+    height: 600px;
+    div {
+      max-width: 600px;
+    }
+  }
+}
+
+
+.timeline-item {
+    border-left: 2px solid #333333; 
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-content {
+    padding: 15px;
+    border-radius: 5px;
+  }

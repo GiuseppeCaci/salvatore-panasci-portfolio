@@ -1,0 +1,35 @@
+@import '../themes/_light.scss';
+@import '../abstracts/_mixins.scss';
+
+.section-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        h1{
+            color:$base-titoli-light;
+            font-weight:600;
+        }
+        p{
+            color:$base-testi-light;
+        }
+       }
+
+       ul,li{
+        color:$base-testi-light;
+        a{
+            text-decoration: none;
+        }
+       }
+
+       @include respond-to (tablet){
+        div{
+            width: 500px;
+        }
+    }
+    @include respond-to (desktop){
+        div{
+            width: 600px;
+        }
+    }
+}

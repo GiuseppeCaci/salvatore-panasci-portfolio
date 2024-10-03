@@ -1,0 +1,106 @@
+@import '../themes/_light.scss';
+@import '../abstracts/_mixins.scss';
+
+.h-base{
+    @include respond-to (mobile){
+        min-height: 92vh;
+    }
+    @include respond-to (tablet){
+        min-height: 95vh;
+    }
+    @include respond-to (desktop){
+        min-height: 100vh;
+        div{
+            max-width: 600px;
+        }
+    }
+}
+
+.container-yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $yellow-background-light;
+    h1,h2,h3,h4,h5,h6{
+        color:$yellow-titoli-testi-light;
+        font-weight:600;
+    }
+    p{
+        color:$yellow-titoli-testi-light;
+    }
+  div{
+    a{
+        background-color: $yellow-button-light;
+        color:white;
+        border-radius: 25px;
+        padding: 12px 17px;
+        box-shadow: 0 2px 2px rgba(47, 46, 46, 0.178);
+        transition: transform 0.3s ease;
+        &:hover{
+            background-color: $yellow-button-hover-light;
+            color:$yellow-titoli-testi-light;
+            color:white;
+            transform: scale(1.1); 
+        }
+    }
+  }
+  @include respond-to (tablet){
+    min-height: 200px;
+    div{
+        max-width: 500px;
+    }
+}
+@include respond-to (desktop){
+    height: 600px;
+    div{
+        max-width: 600px;
+    }
+}
+}
+
+
+
+.container-blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $blue-background-light;
+    h1,h2,h3,h4,h5,h6{
+        color:$blue-titoli-testi-light;
+        font-weight:600;
+    }
+    p{
+        color:$blue-titoli-testi-light;
+    }
+    ul li{
+        color:$blue-titoli-testi-light;
+    }
+  div{
+    a{
+        background-color: $blue-button-light;
+        color:white;
+        border-radius: 25px;
+        padding: 12px 17px;
+        box-shadow: 0 2px 2px rgba(47, 46, 46, 0.178);
+        transition: transform 0.3s ease;
+        &:hover{
+            background-color: $yellow-button-hover-light;
+            color:$yellow-titoli-testi-light;
+            color:white;
+            transform: scale(1.1); 
+        }
+    }
+  }
+  @include respond-to (tablet){
+    min-height: 200px;
+    div{
+        max-width: 500px;
+    }
+}
+@include respond-to (desktop){
+    height: 600px;
+    div{
+        max-width: 600px;
+    }
+}
+}
