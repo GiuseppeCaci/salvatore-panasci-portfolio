@@ -33,3 +33,12 @@
         }
     }
 }
+
+.link-a{
+    list-style: none;
+    text-decoration: none;
+    color:$base-testi-light;
+    &:focus{
+        color:$blue-button-hover-light;
+    }
+}

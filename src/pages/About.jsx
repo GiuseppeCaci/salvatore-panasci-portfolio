@@ -83,7 +83,7 @@ const About = () => {
       <li className="list-group-item">Progetti di digitalizzazione dell'istruzione.</li>
     </ul>
     <div className="d-flex justify-content-center mt-4">
-      <a href="#services" className="btn btn-lg mt-4">
+      <a href={`mailto:${import.meta.env.VITE_EMAIL}`} className="btn btn-lg mt-4">
         Contattami
       </a>
     </div>

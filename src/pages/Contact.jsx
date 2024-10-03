@@ -18,13 +18,13 @@ const Contact = () => {
             </p>
             <ul className="list-group list-group-flush mt-4">
               <li className="list-group-item">
-                <i className="bi bi-envelope-fill fs-5"></i> <a href={`mailto:${import.meta.env.VITE_EMAIL}`}>Mandami un Email</a>
+                <i className="bi bi-envelope-fill fs-5"></i> <a href={`mailto:${import.meta.env.VITE_EMAIL}`} className="link-a">Mandami un Email</a>
               </li>
               <li className="list-group-item">
-                <i className="bi bi-linkedin fs-5"></i><a href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" > Visita il mio Linkedin</a>
+                <i className="bi bi-linkedin fs-5"></i><a href={import.meta.env.VITE_LINKEDIN_URL} target="_blank" className="link-a"> Visita il mio Linkedin</a>
               </li>
               <li className="list-group-item">
-                <i className="bi bi-file-earmark-person-fill fs-5"></i> <a href={import.meta.env.VITE_CV_URL} download="curriculum-panasci.pdf">Scarica il mio Curriculum</a>
+                <i className="bi bi-file-earmark-person-fill fs-5"></i> <a href={import.meta.env.VITE_CV_URL} download="curriculum-panasci.pdf"  className="link-a">Scarica il mio Curriculum</a>
               </li>
             </ul>
           </div>

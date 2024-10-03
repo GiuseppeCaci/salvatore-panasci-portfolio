@@ -489,6 +489,15 @@ footer .list-inline-item {
   }
 }
 
+.link-a {
+  list-style: none;
+  text-decoration: none;
+  color: #29688C;
+}
+.link-a:focus {
+  color: #4C749E;
+}
+
 @media (max-width: 599px) {
   .h-base {
     min-height: 92vh;
