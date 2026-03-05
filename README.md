@@ -1,8 +1,25 @@
-# React + Vite
+# Responsive Website – React & Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a responsive website built using **React** and **Bootstrap**.
 
-Currently, two official plugins are available:
+The goal of the project was to practice building modern user interfaces with a component-based structure and responsive layouts that adapt to different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- JavaScript
+- Bootstrap
+- HTML5
+- CSS3
+
+## Features
+- Fully responsive layout
+- Component-based architecture
+- Bootstrap grid system
+- Clean and structured UI
+
+## Purpose
+This project was developed as a front-end exercise to explore responsive design principles and the integration of Bootstrap within a React application.
+
+## Notes
+The repository contains the full source code of the project and serves as a reference for front-end development and responsive UI implementation.
